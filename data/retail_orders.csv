@@ -1,21 +1,181 @@
 order_date,order_id,product,category,region,sales_channel,units_sold,unit_price,discount_pct,revenue,cost,profit,customer_type
-2025-01-03,ORD-1001,Wireless Mouse,Accessories,North,Online,3,25.00,0.10,67.50,36.00,31.50,New
-2025-01-04,ORD-1002,Office Chair,Furniture,South,Store,1,180.00,0.05,171.00,120.00,51.00,Returning
-2025-01-05,ORD-1003,Mechanical Keyboard,Accessories,West,Online,2,90.00,0.15,153.00,100.00,53.00,Returning
-2025-01-07,ORD-1004,Standing Desk,Furniture,North,Store,1,420.00,0.10,378.00,290.00,88.00,New
-2025-01-08,ORD-1005,Notebook Pack,Stationery,East,Marketplace,10,6.00,0.20,48.00,25.00,23.00,New
-2025-01-09,ORD-1006,Desk Lamp,Office Supplies,South,Online,4,35.00,0.00,140.00,76.00,64.00,Returning
-2025-01-11,ORD-1007,Monitor 24 inch,Electronics,West,Online,2,160.00,0.12,281.60,210.00,71.60,New
-2025-01-13,ORD-1008,Printer Paper Box,Office Supplies,East,Store,5,12.00,0.05,57.00,30.00,27.00,Returning
-2025-01-15,ORD-1009,USB-C Hub,Electronics,North,Marketplace,3,45.00,0.18,110.70,78.00,32.70,New
-2025-01-17,ORD-1010,Ergonomic Chair,Furniture,South,Online,1,240.00,0.08,220.80,165.00,55.80,Returning
-2025-01-20,ORD-1011,Whiteboard,Office Supplies,West,Store,2,75.00,0.10,135.00,88.00,47.00,New
-2025-01-22,ORD-1012,Laptop Stand,Accessories,East,Online,4,32.00,0.00,128.00,64.00,64.00,Returning
-2025-01-24,ORD-1013,Ballpoint Pen Set,Stationery,North,Marketplace,12,4.50,0.25,40.50,20.00,20.50,New
-2025-01-26,ORD-1014,External SSD,Electronics,South,Online,2,130.00,0.07,241.80,190.00,51.80,Returning
-2025-01-28,ORD-1015,Filing Cabinet,Furniture,West,Store,1,210.00,0.15,178.50,150.00,28.50,New
-2025-02-01,ORD-1016,Wireless Mouse,Accessories,East,Online,5,25.00,0.05,118.75,60.00,58.75,Returning
-2025-02-03,ORD-1017,Desk Lamp,Office Supplies,North,Marketplace,3,35.00,0.20,84.00,57.00,27.00,New
-2025-02-05,ORD-1018,Mechanical Keyboard,Accessories,South,Store,1,90.00,0.00,90.00,50.00,40.00,Returning
-2025-02-08,ORD-1019,Monitor 24 inch,Electronics,East,Online,1,160.00,0.10,144.00,105.00,39.00,New
-2025-02-10,ORD-1020,Notebook Pack,Stationery,West,Marketplace,15,6.00,0.22,70.20,37.50,32.70,Returning
+2025-01-02,ORD-1060,Filing Cabinet,Furniture,South,Store,2,210.0,0.08,386.4,320.24,66.16,New
+2025-01-03,ORD-1043,Ballpoint Pen Set,Stationery,East,Online,15,4.5,0.16,56.7,30.23,26.47,New
+2025-01-05,ORD-1145,Standing Desk,Furniture,North,Online,1,420.0,0.09,382.2,311.72,70.48,New
+2025-01-07,ORD-1076,Notebook Pack,Stationery,North,Marketplace,8,6.0,0.16,40.32,25.2,15.12,New
+2025-01-08,ORD-1050,External SSD,Electronics,East,Store,3,130.0,0.09,354.9,280.05,74.85,New
+2025-01-11,ORD-1044,Filing Cabinet,Furniture,South,Store,1,210.0,0.09,191.1,151.53,39.57,Returning
+2025-01-11,ORD-1176,Standing Desk,Furniture,North,Store,2,420.0,0.08,772.8,639.64,133.16,Returning
+2025-01-12,ORD-1163,Mechanical Keyboard,Accessories,East,Store,5,90.0,0.11,400.5,254.45,146.05,Returning
+2025-01-13,ORD-1071,Desk Lamp,Office Supplies,North,Online,8,35.0,0.07,260.4,147.9,112.5,New
+2025-01-14,ORD-1090,Monitor 24 inch,Electronics,South,Online,1,160.0,0.11,142.4,113.4,29.0,Returning
+2025-01-15,ORD-1121,Mechanical Keyboard,Accessories,North,Online,1,90.0,0.06,84.6,51.35,33.25,Returning
+2025-01-16,ORD-1030,Mechanical Keyboard,Accessories,South,Online,2,90.0,0.14,154.8,101.07,53.73,Returning
+2025-01-17,ORD-1010,Standing Desk,Furniture,North,Online,2,420.0,0.08,772.8,625.61,147.19,New
+2025-01-17,ORD-1066,Mechanical Keyboard,Accessories,South,Online,2,90.0,0.13,156.6,104.23,52.37,New
+2025-01-18,ORD-1006,Filing Cabinet,Furniture,West,Online,2,210.0,0.12,369.6,295.35,74.25,New
+2025-01-18,ORD-1049,Standing Desk,Furniture,South,Online,2,420.0,0.09,764.4,670.05,94.35,Returning
+2025-01-18,ORD-1073,Mechanical Keyboard,Accessories,West,Online,3,90.0,0.11,240.3,163.27,77.03,Returning
+2025-01-19,ORD-1008,Monitor 24 inch,Electronics,South,Online,2,160.0,0.14,275.2,228.04,47.16,New
+2025-01-19,ORD-1059,Laptop Stand,Accessories,North,Online,5,32.0,0.12,140.8,80.3,60.5,Returning
+2025-01-21,ORD-1096,Wireless Mouse,Accessories,North,Marketplace,2,25.0,0.11,44.5,25.05,19.45,New
+2025-01-23,ORD-1168,Monitor 24 inch,Electronics,South,Marketplace,3,160.0,0.18,393.6,336.27,57.33,Returning
+2025-01-24,ORD-1120,Wireless Mouse,Accessories,North,Online,3,25.0,0.13,65.25,39.03,26.22,Returning
+2025-01-24,ORD-1130,Filing Cabinet,Furniture,North,Online,2,210.0,0.1,378.0,320.74,57.26,New
+2025-01-27,ORD-1001,Ballpoint Pen Set,Stationery,North,Online,7,4.5,0.13,27.41,15.35,12.06,New
+2025-01-28,ORD-1148,Ballpoint Pen Set,Stationery,North,Online,10,4.5,0.15,38.25,21.34,16.91,Returning
+2025-01-30,ORD-1162,Desk Lamp,Office Supplies,West,Store,3,35.0,0.11,93.45,56.09,37.36,New
+2025-01-31,ORD-1110,Wireless Mouse,Accessories,West,Online,1,25.0,0.12,22.0,13.38,8.62,Returning
+2025-02-02,ORD-1020,Mechanical Keyboard,Accessories,North,Marketplace,5,90.0,0.14,387.0,268.28,118.72,Returning
+2025-02-03,ORD-1108,Ergonomic Chair,Furniture,West,Store,1,240.0,0.09,218.4,178.78,39.62,Returning
+2025-02-04,ORD-1112,USB-C Hub,Electronics,West,Store,3,45.0,0.13,117.45,87.82,29.63,New
+2025-02-05,ORD-1129,Monitor 24 inch,Electronics,South,Store,3,160.0,0.13,417.6,342.71,74.89,Returning
+2025-02-07,ORD-1143,Ergonomic Chair,Furniture,South,Store,1,240.0,0.08,220.8,176.45,44.35,Returning
+2025-02-07,ORD-1171,Ergonomic Chair,Furniture,East,Store,1,240.0,0.07,223.2,167.5,55.7,Returning
+2025-02-08,ORD-1093,Mechanical Keyboard,Accessories,West,Online,6,90.0,0.09,491.4,327.66,163.74,Returning
+2025-02-08,ORD-1116,Ergonomic Chair,Furniture,West,Online,2,240.0,0.11,427.2,343.04,84.16,Returning
+2025-02-09,ORD-1013,USB-C Hub,Electronics,South,Online,1,45.0,0.15,38.25,28.53,9.72,New
+2025-02-09,ORD-1074,Ballpoint Pen Set,Stationery,North,Marketplace,7,4.5,0.21,24.89,14.39,10.5,Returning
+2025-02-10,ORD-1109,Printer Paper Box,Office Supplies,West,Online,6,12.0,0.13,62.64,35.41,27.23,Returning
+2025-02-13,ORD-1057,Desk Lamp,Office Supplies,East,Store,3,35.0,0.08,96.6,58.39,38.21,Returning
+2025-02-14,ORD-1144,Notebook Pack,Stationery,North,Store,6,6.0,0.15,30.6,16.84,13.76,Returning
+2025-02-15,ORD-1046,Filing Cabinet,Furniture,West,Marketplace,1,210.0,0.17,174.3,159.96,14.34,Returning
+2025-02-16,ORD-1122,Monitor 24 inch,Electronics,West,Online,3,160.0,0.15,408.0,327.31,80.69,Returning
+2025-02-17,ORD-1088,External SSD,Electronics,South,Online,1,130.0,0.14,111.8,94.04,17.76,New
+2025-02-19,ORD-1089,Office Chair,Furniture,West,Online,2,180.0,0.15,306.0,241.47,64.53,Returning
+2025-02-20,ORD-1017,Whiteboard,Office Supplies,North,Marketplace,7,75.0,0.11,467.25,320.62,146.63,New
+2025-02-20,ORD-1053,Wireless Mouse,Accessories,West,Online,5,25.0,0.14,107.5,64.44,43.06,Returning
+2025-02-22,ORD-1142,USB-C Hub,Electronics,North,Online,1,45.0,0.13,39.15,26.77,12.38,New
+2025-02-24,ORD-1037,Ergonomic Chair,Furniture,North,Online,1,240.0,0.06,225.6,171.7,53.9,Returning
+2025-02-24,ORD-1083,Printer Paper Box,Office Supplies,West,Online,4,12.0,0.08,44.16,23.75,20.41,Returning
+2025-02-25,ORD-1159,Mechanical Keyboard,Accessories,South,Marketplace,1,90.0,0.16,75.6,51.87,23.73,Returning
+2025-02-26,ORD-1009,Laptop Stand,Accessories,South,Online,6,32.0,0.13,167.04,99.44,67.6,New
+2025-02-26,ORD-1023,USB-C Hub,Electronics,South,Online,3,45.0,0.11,120.15,79.72,40.43,New
+2025-02-27,ORD-1058,External SSD,Electronics,East,Online,1,130.0,0.13,113.1,99.64,13.46,Returning
+2025-02-27,ORD-1094,External SSD,Electronics,North,Marketplace,2,130.0,0.14,223.6,198.72,24.88,New
+2025-02-28,ORD-1128,Ergonomic Chair,Furniture,North,Marketplace,2,240.0,0.13,417.6,346.8,70.8,Returning
+2025-02-28,ORD-1151,Office Chair,Furniture,North,Marketplace,1,180.0,0.11,160.2,122.21,37.99,Returning
+2025-02-28,ORD-1165,Mechanical Keyboard,Accessories,North,Online,2,90.0,0.09,163.8,105.3,58.5,New
+2025-03-01,ORD-1135,Office Chair,Furniture,East,Store,2,180.0,0.06,338.4,245.88,92.52,Returning
+2025-03-02,ORD-1024,Office Chair,Furniture,North,Online,2,180.0,0.05,342.0,241.02,100.98,Returning
+2025-03-03,ORD-1019,Filing Cabinet,Furniture,East,Marketplace,2,210.0,0.11,373.8,319.81,53.99,Returning
+2025-03-04,ORD-1025,Printer Paper Box,Office Supplies,South,Store,6,12.0,0.09,65.52,37.79,27.73,Returning
+2025-03-04,ORD-1077,Notebook Pack,Stationery,West,Store,5,6.0,0.18,24.6,14.01,10.59,Returning
+2025-03-05,ORD-1047,Wireless Mouse,Accessories,South,Marketplace,4,25.0,0.17,83.0,50.87,32.13,New
+2025-03-05,ORD-1061,Standing Desk,Furniture,North,Store,2,420.0,0.04,806.4,667.15,139.25,New
+2025-03-06,ORD-1180,Wireless Mouse,Accessories,East,Online,6,25.0,0.1,135.0,81.1,53.9,New
+2025-03-07,ORD-1152,Standing Desk,Furniture,West,Store,2,420.0,0.1,756.0,635.21,120.79,Returning
+2025-03-07,ORD-1164,Notebook Pack,Stationery,North,Online,7,6.0,0.17,34.86,20.17,14.69,New
+2025-03-09,ORD-1098,External SSD,Electronics,East,Marketplace,3,130.0,0.13,339.3,298.41,40.89,New
+2025-03-09,ORD-1118,Filing Cabinet,Furniture,West,Online,1,210.0,0.09,191.1,151.98,39.12,New
+2025-03-10,ORD-1099,Ballpoint Pen Set,Stationery,South,Store,14,4.5,0.14,54.18,31.37,22.81,Returning
+2025-03-10,ORD-1157,Ergonomic Chair,Furniture,East,Store,1,240.0,0.09,218.4,163.69,54.71,Returning
+2025-03-11,ORD-1161,Filing Cabinet,Furniture,North,Online,1,210.0,0.1,189.0,153.51,35.49,Returning
+2025-03-12,ORD-1149,Filing Cabinet,Furniture,West,Online,1,210.0,0.08,193.2,156.18,37.02,New
+2025-03-12,ORD-1174,Ballpoint Pen Set,Stationery,East,Online,11,4.5,0.17,41.09,23.83,17.26,New
+2025-03-13,ORD-1003,Whiteboard,Office Supplies,South,Store,5,75.0,0.07,348.75,246.25,102.5,Returning
+2025-03-13,ORD-1028,Mechanical Keyboard,Accessories,South,Online,2,90.0,0.11,160.2,104.83,55.37,Returning
+2025-03-13,ORD-1139,Office Chair,Furniture,South,Marketplace,2,180.0,0.14,309.6,234.82,74.78,Returning
+2025-03-14,ORD-1113,External SSD,Electronics,West,Online,2,130.0,0.16,218.4,197.81,20.59,Returning
+2025-03-15,ORD-1100,Mechanical Keyboard,Accessories,North,Online,6,90.0,0.12,475.2,313.6,161.6,New
+2025-03-15,ORD-1175,Monitor 24 inch,Electronics,North,Online,1,160.0,0.1,144.0,108.06,35.94,Returning
+2025-03-16,ORD-1097,Laptop Stand,Accessories,North,Online,6,32.0,0.1,172.8,90.68,82.12,New
+2025-03-17,ORD-1132,Filing Cabinet,Furniture,East,Store,2,210.0,0.12,369.6,315.95,53.65,New
+2025-03-18,ORD-1054,Mechanical Keyboard,Accessories,East,Store,1,90.0,0.11,80.1,52.69,27.41,Returning
+2025-03-19,ORD-1056,Desk Lamp,Office Supplies,South,Store,6,35.0,0.11,186.9,111.32,75.58,New
+2025-03-20,ORD-1095,Desk Lamp,Office Supplies,West,Marketplace,6,35.0,0.17,174.3,115.46,58.84,New
+2025-03-21,ORD-1169,Mechanical Keyboard,Accessories,South,Online,1,90.0,0.11,80.1,54.2,25.9,New
+2025-03-22,ORD-1035,Notebook Pack,Stationery,North,Marketplace,13,6.0,0.19,63.18,40.98,22.2,New
+2025-03-23,ORD-1062,Mechanical Keyboard,Accessories,West,Online,5,90.0,0.16,378.0,277.43,100.57,Returning
+2025-03-23,ORD-1065,USB-C Hub,Electronics,East,Online,1,45.0,0.1,40.5,29.36,11.14,Returning
+2025-03-24,ORD-1173,Notebook Pack,Stationery,West,Marketplace,14,6.0,0.22,65.52,43.72,21.8,Returning
+2025-03-27,ORD-1042,Filing Cabinet,Furniture,North,Online,2,210.0,0.05,399.0,316.67,82.33,New
+2025-03-28,ORD-1004,Wireless Mouse,Accessories,South,Store,2,25.0,0.09,45.5,24.86,20.64,New
+2025-03-28,ORD-1027,Office Chair,Furniture,North,Store,1,180.0,0.04,172.8,127.09,45.71,Returning
+2025-03-28,ORD-1069,Office Chair,Furniture,South,Store,2,180.0,0.06,338.4,250.86,87.54,New
+2025-03-28,ORD-1179,Whiteboard,Office Supplies,South,Store,5,75.0,0.08,345.0,242.82,102.18,Returning
+2025-03-29,ORD-1015,Wireless Mouse,Accessories,North,Store,3,25.0,0.1,67.5,37.34,30.16,Returning
+2025-04-01,ORD-1045,Filing Cabinet,Furniture,North,Marketplace,1,210.0,0.13,182.7,158.47,24.23,New
+2025-04-01,ORD-1155,Ballpoint Pen Set,Stationery,West,Marketplace,8,4.5,0.22,28.08,16.1,11.98,Returning
+2025-04-04,ORD-1131,Monitor 24 inch,Electronics,West,Online,3,160.0,0.16,403.2,339.44,63.76,New
+2025-04-05,ORD-1075,Printer Paper Box,Office Supplies,North,Store,7,12.0,0.05,79.8,40.47,39.33,New
+2025-04-05,ORD-1140,Monitor 24 inch,Electronics,South,Online,2,160.0,0.1,288.0,226.6,61.4,Returning
+2025-04-06,ORD-1153,Laptop Stand,Accessories,West,Online,1,32.0,0.12,28.16,16.86,11.3,Returning
+2025-04-09,ORD-1115,Desk Lamp,Office Supplies,West,Marketplace,7,35.0,0.12,215.6,128.96,86.64,Returning
+2025-04-12,ORD-1133,Monitor 24 inch,Electronics,North,Online,1,160.0,0.13,139.2,118.03,21.17,New
+2025-04-13,ORD-1105,Ballpoint Pen Set,Stationery,North,Marketplace,15,4.5,0.18,55.35,33.54,21.81,New
+2025-04-14,ORD-1106,Whiteboard,Office Supplies,North,Store,4,75.0,0.04,288.0,198.16,89.84,New
+2025-04-14,ORD-1167,Standing Desk,Furniture,East,Store,2,420.0,0.07,781.2,614.43,166.77,Returning
+2025-04-15,ORD-1104,Laptop Stand,Accessories,West,Store,1,32.0,0.11,28.48,15.79,12.69,Returning
+2025-04-16,ORD-1026,Ergonomic Chair,Furniture,West,Online,2,240.0,0.1,432.0,342.09,89.91,New
+2025-04-16,ORD-1154,Whiteboard,Office Supplies,North,Store,4,75.0,0.08,276.0,187.43,88.57,Returning
+2025-04-18,ORD-1055,Ballpoint Pen Set,Stationery,West,Store,12,4.5,0.15,45.9,26.27,19.63,Returning
+2025-04-18,ORD-1068,Wireless Mouse,Accessories,West,Online,3,25.0,0.14,64.5,39.58,24.92,Returning
+2025-04-18,ORD-1072,Monitor 24 inch,Electronics,South,Online,2,160.0,0.11,284.8,220.05,64.75,New
+2025-04-18,ORD-1079,Monitor 24 inch,Electronics,West,Store,3,160.0,0.11,427.2,349.23,77.97,New
+2025-04-21,ORD-1150,Notebook Pack,Stationery,East,Store,8,6.0,0.15,40.8,22.41,18.39,Returning
+2025-04-22,ORD-1051,External SSD,Electronics,South,Store,1,130.0,0.09,118.3,95.45,22.85,Returning
+2025-04-22,ORD-1080,Mechanical Keyboard,Accessories,West,Marketplace,4,90.0,0.17,298.8,202.44,96.36,Returning
+2025-04-22,ORD-1081,Whiteboard,Office Supplies,East,Store,8,75.0,0.07,558.0,394.68,163.32,Returning
+2025-04-23,ORD-1038,Laptop Stand,Accessories,East,Marketplace,3,32.0,0.12,84.48,50.72,33.76,Returning
+2025-04-23,ORD-1101,Printer Paper Box,Office Supplies,East,Store,6,12.0,0.08,66.24,34.25,31.99,Returning
+2025-04-23,ORD-1117,Wireless Mouse,Accessories,South,Store,1,25.0,0.13,21.75,12.42,9.33,Returning
+2025-04-23,ORD-1178,Filing Cabinet,Furniture,East,Marketplace,1,210.0,0.09,191.1,161.57,29.53,New
+2025-04-24,ORD-1103,Wireless Mouse,Accessories,East,Store,2,25.0,0.09,45.5,27.71,17.79,Returning
+2025-04-25,ORD-1146,Wireless Mouse,Accessories,South,Marketplace,6,25.0,0.11,133.5,81.67,51.83,New
+2025-04-26,ORD-1082,Notebook Pack,Stationery,East,Store,18,6.0,0.13,93.96,51.52,42.44,New
+2025-04-26,ORD-1177,Ergonomic Chair,Furniture,South,Online,1,240.0,0.14,206.4,164.94,41.46,Returning
+2025-04-27,ORD-1007,USB-C Hub,Electronics,East,Marketplace,1,45.0,0.14,38.7,28.55,10.15,Returning
+2025-04-27,ORD-1087,Whiteboard,Office Supplies,East,Store,4,75.0,0.06,282.0,185.69,96.31,Returning
+2025-04-27,ORD-1125,Printer Paper Box,Office Supplies,East,Marketplace,5,12.0,0.13,52.2,31.75,20.45,New
+2025-04-27,ORD-1134,Ergonomic Chair,Furniture,East,Online,2,240.0,0.1,432.0,338.78,93.22,New
+2025-04-27,ORD-1141,Ballpoint Pen Set,Stationery,East,Online,5,4.5,0.2,18.0,10.04,7.96,New
+2025-04-28,ORD-1005,Desk Lamp,Office Supplies,North,Store,4,35.0,0.09,127.4,76.66,50.74,New
+2025-04-28,ORD-1011,Notebook Pack,Stationery,East,Store,18,6.0,0.18,88.56,50.76,37.8,Returning
+2025-04-28,ORD-1036,USB-C Hub,Electronics,East,Online,3,45.0,0.13,117.45,82.64,34.81,New
+2025-04-28,ORD-1048,Ergonomic Chair,Furniture,North,Store,2,240.0,0.06,451.2,338.15,113.05,New
+2025-04-28,ORD-1166,Standing Desk,Furniture,East,Online,1,420.0,0.09,382.2,333.68,48.52,Returning
+2025-04-29,ORD-1123,Mechanical Keyboard,Accessories,West,Store,5,90.0,0.09,409.5,267.59,141.91,New
+2025-04-29,ORD-1136,Notebook Pack,Stationery,East,Marketplace,5,6.0,0.2,24.0,15.71,8.29,New
+2025-05-03,ORD-1092,Printer Paper Box,Office Supplies,West,Online,4,12.0,0.14,41.28,22.94,18.34,Returning
+2025-05-04,ORD-1111,Laptop Stand,Accessories,West,Marketplace,6,32.0,0.14,165.12,103.41,61.71,New
+2025-05-05,ORD-1119,Office Chair,Furniture,West,Store,2,180.0,0.14,309.6,255.98,53.62,Returning
+2025-05-06,ORD-1018,Ergonomic Chair,Furniture,South,Store,1,240.0,0.1,216.0,163.53,52.47,Returning
+2025-05-06,ORD-1085,Mechanical Keyboard,Accessories,South,Marketplace,2,90.0,0.16,151.2,104.65,46.55,New
+2025-05-07,ORD-1137,External SSD,Electronics,West,Online,1,130.0,0.12,114.4,93.36,21.04,New
+2025-05-07,ORD-1172,Laptop Stand,Accessories,South,Marketplace,2,32.0,0.18,52.48,32.16,20.32,Returning
+2025-05-09,ORD-1016,Desk Lamp,Office Supplies,South,Store,7,35.0,0.07,227.85,138.02,89.83,Returning
+2025-05-10,ORD-1002,Filing Cabinet,Furniture,North,Store,1,210.0,0.06,197.4,155.85,41.55,New
+2025-05-10,ORD-1041,External SSD,Electronics,South,Marketplace,3,130.0,0.18,319.8,290.24,29.56,New
+2025-05-11,ORD-1033,Monitor 24 inch,Electronics,North,Online,3,160.0,0.08,441.6,324.29,117.31,Returning
+2025-05-11,ORD-1170,USB-C Hub,Electronics,East,Marketplace,3,45.0,0.12,118.8,81.48,37.32,New
+2025-05-13,ORD-1022,Office Chair,Furniture,South,Store,2,180.0,0.09,327.6,245.38,82.22,New
+2025-05-13,ORD-1084,External SSD,Electronics,East,Online,2,130.0,0.12,228.8,201.85,26.95,Returning
+2025-05-13,ORD-1107,Standing Desk,Furniture,North,Store,2,420.0,0.04,806.4,634.47,171.93,Returning
+2025-05-14,ORD-1064,Laptop Stand,Accessories,West,Online,6,32.0,0.11,170.88,96.75,74.13,Returning
+2025-05-14,ORD-1147,Whiteboard,Office Supplies,North,Store,6,75.0,0.03,436.5,279.5,157.0,New
+2025-05-17,ORD-1070,Ergonomic Chair,Furniture,West,Store,1,240.0,0.14,206.4,163.65,42.75,Returning
+2025-05-19,ORD-1021,Whiteboard,Office Supplies,South,Online,5,75.0,0.13,326.25,244.83,81.42,Returning
+2025-05-19,ORD-1029,Standing Desk,Furniture,North,Store,1,420.0,0.04,403.2,331.18,72.02,Returning
+2025-05-19,ORD-1032,Printer Paper Box,Office Supplies,South,Online,2,12.0,0.1,21.6,11.38,10.22,New
+2025-05-19,ORD-1138,USB-C Hub,Electronics,South,Online,3,45.0,0.14,116.1,83.61,32.49,New
+2025-05-20,ORD-1124,Printer Paper Box,Office Supplies,East,Store,5,12.0,0.1,54.0,28.86,25.14,Returning
+2025-05-21,ORD-1063,Filing Cabinet,Furniture,West,Store,2,210.0,0.13,365.4,307.11,58.29,Returning
+2025-05-22,ORD-1014,Ergonomic Chair,Furniture,West,Store,2,240.0,0.11,427.2,355.32,71.88,New
+2025-05-22,ORD-1039,Office Chair,Furniture,East,Store,1,180.0,0.1,162.0,120.77,41.23,Returning
+2025-05-22,ORD-1040,Ballpoint Pen Set,Stationery,North,Marketplace,5,4.5,0.21,17.78,10.14,7.64,New
+2025-05-22,ORD-1114,Standing Desk,Furniture,West,Marketplace,2,420.0,0.13,730.8,658.06,72.74,New
+2025-05-23,ORD-1031,Wireless Mouse,Accessories,West,Online,4,25.0,0.11,89.0,53.63,35.37,Returning
+2025-05-23,ORD-1156,Whiteboard,Office Supplies,South,Online,8,75.0,0.07,558.0,375.44,182.56,Returning
+2025-05-25,ORD-1078,Ergonomic Chair,Furniture,East,Marketplace,1,240.0,0.15,204.0,176.35,27.65,Returning
+2025-05-25,ORD-1127,Office Chair,Furniture,East,Online,2,180.0,0.08,331.2,255.8,75.4,Returning
+2025-05-25,ORD-1158,External SSD,Electronics,East,Marketplace,1,130.0,0.17,107.9,98.28,9.62,New
+2025-05-26,ORD-1034,Laptop Stand,Accessories,North,Store,2,32.0,0.08,58.88,31.18,27.7,Returning
+2025-05-26,ORD-1160,Printer Paper Box,Office Supplies,East,Online,4,12.0,0.1,43.2,24.56,18.64,New
+2025-05-27,ORD-1091,Office Chair,Furniture,South,Store,1,180.0,0.12,158.4,120.58,37.82,Returning
+2025-05-28,ORD-1052,Ergonomic Chair,Furniture,East,Store,1,240.0,0.08,220.8,166.39,54.41,Returning
+2025-05-28,ORD-1102,Wireless Mouse,Accessories,West,Marketplace,1,25.0,0.13,21.75,13.28,8.47,Returning
+2025-05-28,ORD-1126,USB-C Hub,Electronics,West,Marketplace,2,45.0,0.17,74.7,54.96,19.74,New
+2025-05-29,ORD-1086,Wireless Mouse,Accessories,North,Online,2,25.0,0.08,46.0,25.79,20.21,New
+2025-05-30,ORD-1012,Laptop Stand,Accessories,South,Marketplace,6,32.0,0.15,163.2,95.61,67.59,New
+2025-05-30,ORD-1067,Monitor 24 inch,Electronics,West,Online,2,160.0,0.13,278.4,235.59,42.81,New
