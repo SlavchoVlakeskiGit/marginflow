@@ -179,7 +179,11 @@ def build_quick_takeaways(df: pd.DataFrame) -> list[str]:
         (region_df["profit"] / region_df["revenue"]) * 100
     )
 
-    overall_margin = (df["profit"].sum() / df["revenue"].sum() * 100) if df["revenue"].sum() else 0
+    overall_margin = (
+        df["profit"].sum() / df["revenue"].sum() * 100
+        if df["revenue"].sum()
+        else 0
+    )
     weak_regions = region_df[region_df["profit_margin_pct"] < overall_margin - 5]
 
     if not weak_regions.empty:
@@ -189,7 +193,11 @@ def build_quick_takeaways(df: pd.DataFrame) -> list[str]:
         )
 
     if not takeaways:
-        takeaways.append("Revenue and profit look fairly balanced for the current filter selection.")
-        takeaways.append("No major outlier stands out immediately from the selected slice of data.")
+        takeaways.append(
+            "Revenue and profit look fairly balanced for the current filter selection."
+        )
+        takeaways.append(
+            "No major outlier stands out immediately from the selected slice of data."
+        )
 
     return takeaways[:4]
