@@ -2,9 +2,9 @@
 
 ![MarginFlow dashboard overview](assets/preview.png)
 
-MarginFlow is a small internal dashboard for reviewing retail performance with a focus on revenue quality, profit margin, discount pressure, and customer mix.
+MarginFlow is an internal retail reporting dashboard for reviewing revenue quality, profit margin, discount pressure, and customer mix.
 
-It is intentionally scoped like a practical internal tool rather than a polished SaaS product. The goal is to show clear thinking, useful reporting, and clean presentation without overbuilding the project.
+It is built to answer a small set of useful business questions clearly: whether revenue growth is translating into profit, where discounts are eroding margin, which products contribute most to revenue versus profit, and how customer segments differ in value.
 
 ---
 
@@ -16,19 +16,13 @@ It is intentionally scoped like a practical internal tool rather than a polished
 
 ---
 
-## Why this project exists
-
-Many beginner dashboards stop at “sales went up or down”.
-
-MarginFlow goes further by focusing on **how healthy that growth actually is**.
-
-It helps answer:
+## What this dashboard helps answer
 
 - Is revenue growing faster than profit?
-- Are discounts improving volume but hurting margins?
-- Which products sell well but contribute little profit?
-- Are returning customers more valuable?
-- Which regions or categories need attention?
+- Are discounts helping sales volume but reducing margin quality?
+- Which products generate strong revenue but weak profit?
+- Are returning customers contributing more value than new customers?
+- Which categories, regions, or channels need attention?
 
 ---
 
@@ -63,7 +57,7 @@ It helps answer:
 
 ---
 
-## Dashboard Analysis View
+## Dashboard Views
 
 ![MarginFlow business analysis view](assets/analysis-view.png)
 
@@ -133,43 +127,11 @@ The dataset is designed to be simple but realistic enough for meaningful analysi
 
 ---
 
-## What this project demonstrates
+## Project notes
 
-This project complements backend-heavy work by showing:
-
-- Business thinking (not just coding)
-- KPI design and interpretation
-- Data transformation with Pandas
-- Clean, readable dashboard UI
-- Practical insight generation
-- Turning raw data into decisions
-
----
-
-## Implementation Notes
-
-- The dataset is synthetic and included to make the dashboard easy to run locally
-
-- Quick Takeaways are based on simple reporting logic, not machine learning
-
-- The scope is intentionally small to keep the tool focused and believable
-
-- The app is designed to feel like an internal reporting dashboard, not a full BI platform
-
----
-
-## Design choices
-
-Deliberately excluded:
-
-- Machine learning  
-- Forecasting  
-- Authentication  
-- Database setup  
-- Multi-page navigation  
-- Overly complex UI  
-
-The goal is clarity and realism, not feature overload.
+- Uses a synthetic retail dataset included in the repository for easy local setup
+- Quick Takeaways are rule-based reporting insights, not machine learning
+- The dashboard focuses on a compact internal reporting workflow rather than full BI platform features
 
 ---
 
@@ -179,6 +141,17 @@ The goal is clarity and realism, not feature overload.
 - Export filtered results  
 - Period-over-period comparison  
 - Improved table styling  
+
+---
+
+## Example takeaways
+
+Depending on the selected filters, the dashboard can surface observations such as:
+
+- Revenue is increasing faster than profit, suggesting margin compression
+- High-discount products are generating volume but underperforming on profit
+- Returning customers have a higher average order value than new customers
+- One region is contributing strong revenue with below-average margin
 
 ---
 
