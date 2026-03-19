@@ -4,7 +4,7 @@
 
 MarginFlow is an internal retail reporting dashboard for reviewing revenue quality, profit margin, discount pressure, and customer mix.
 
-It is built to answer a small set of useful business questions clearly: whether revenue growth is translating into profit, where discounts are eroding margin, which products contribute most to revenue versus profit, and how customer segments differ in value.
+The project is intentionally small and focused. The goal was to build a clear reporting dashboard with useful summaries and a simple interface, without adding unnecessary complexity.
 
 ---
 
