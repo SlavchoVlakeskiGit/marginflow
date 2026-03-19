@@ -1,0 +1,21 @@
+order_date,order_id,product,category,region,sales_channel,units_sold,unit_price,discount_pct,revenue,cost,profit,customer_type
+2025-01-03,ORD-1001,Wireless Mouse,Accessories,North,Online,3,25.00,0.10,67.50,36.00,31.50,New
+2025-01-04,ORD-1002,Office Chair,Furniture,South,Store,1,180.00,0.05,171.00,120.00,51.00,Returning
+2025-01-05,ORD-1003,Mechanical Keyboard,Accessories,West,Online,2,90.00,0.15,153.00,100.00,53.00,Returning
+2025-01-07,ORD-1004,Standing Desk,Furniture,North,Store,1,420.00,0.10,378.00,290.00,88.00,New
+2025-01-08,ORD-1005,Notebook Pack,Stationery,East,Marketplace,10,6.00,0.20,48.00,25.00,23.00,New
+2025-01-09,ORD-1006,Desk Lamp,Office Supplies,South,Online,4,35.00,0.00,140.00,76.00,64.00,Returning
+2025-01-11,ORD-1007,Monitor 24 inch,Electronics,West,Online,2,160.00,0.12,281.60,210.00,71.60,New
+2025-01-13,ORD-1008,Printer Paper Box,Office Supplies,East,Store,5,12.00,0.05,57.00,30.00,27.00,Returning
+2025-01-15,ORD-1009,USB-C Hub,Electronics,North,Marketplace,3,45.00,0.18,110.70,78.00,32.70,New
+2025-01-17,ORD-1010,Ergonomic Chair,Furniture,South,Online,1,240.00,0.08,220.80,165.00,55.80,Returning
+2025-01-20,ORD-1011,Whiteboard,Office Supplies,West,Store,2,75.00,0.10,135.00,88.00,47.00,New
+2025-01-22,ORD-1012,Laptop Stand,Accessories,East,Online,4,32.00,0.00,128.00,64.00,64.00,Returning
+2025-01-24,ORD-1013,Ballpoint Pen Set,Stationery,North,Marketplace,12,4.50,0.25,40.50,20.00,20.50,New
+2025-01-26,ORD-1014,External SSD,Electronics,South,Online,2,130.00,0.07,241.80,190.00,51.80,Returning
+2025-01-28,ORD-1015,Filing Cabinet,Furniture,West,Store,1,210.00,0.15,178.50,150.00,28.50,New
+2025-02-01,ORD-1016,Wireless Mouse,Accessories,East,Online,5,25.00,0.05,118.75,60.00,58.75,Returning
+2025-02-03,ORD-1017,Desk Lamp,Office Supplies,North,Marketplace,3,35.00,0.20,84.00,57.00,27.00,New
+2025-02-05,ORD-1018,Mechanical Keyboard,Accessories,South,Store,1,90.00,0.00,90.00,50.00,40.00,Returning
+2025-02-08,ORD-1019,Monitor 24 inch,Electronics,East,Online,1,160.00,0.10,144.00,105.00,39.00,New
+2025-02-10,ORD-1020,Notebook Pack,Stationery,West,Marketplace,15,6.00,0.22,70.20,37.50,32.70,Returning
