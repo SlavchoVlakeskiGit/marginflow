@@ -8,6 +8,14 @@ It is intentionally scoped like a practical internal tool rather than a polished
 
 ---
 
+## Highlights
+
+- Tracks revenue, profit, margin, and discount pressure in one compact dashboard
+- Uses rule-based takeaways to surface what stands out in the filtered data
+- Built as a practical internal analytics tool with Streamlit, Pandas, and Plotly
+
+---
+
 ## Why this project exists
 
 Many beginner dashboards stop at “sales went up or down”.
@@ -95,7 +103,7 @@ marginflow/
 ## How to Run
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/SlavchoVlakeskiGit/marginflow.git
 cd marginflow
 pip install -r requirements.txt
 py -m streamlit run app.py
@@ -135,6 +143,18 @@ This project complements backend-heavy work by showing:
 - Clean, readable dashboard UI
 - Practical insight generation
 - Turning raw data into decisions
+
+---
+
+## Implementation Notes
+
+- The dataset is synthetic and included to make the dashboard easy to run locally
+
+- Quick Takeaways are based on simple reporting logic, not machine learning
+
+- The scope is intentionally small to keep the tool focused and believable
+
+- The app is designed to feel like an internal reporting dashboard, not a full BI platform
 
 ---
 
