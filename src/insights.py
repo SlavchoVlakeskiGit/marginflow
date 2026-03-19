@@ -199,5 +199,9 @@ def build_quick_takeaways(df: pd.DataFrame) -> list[str]:
         takeaways.append(
             "No major outlier stands out immediately from the selected slice of data."
         )
-
-    return takeaways[:4]
+    if len(takeaways) < 2:
+        takeaways.append(
+        "No major issues stand out, performance looks 	     relatively stable."
+        )
+    
+        return takeaways[:4]
