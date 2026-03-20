@@ -1,80 +1,64 @@
 # MarginFlow
 
-![MarginFlow dashboard overview](assets/preview.png)
+MarginFlow is a small internal-style dashboard for looking at retail performance with a focus on revenue quality, margin pressure, discount impact, and customer mix.
 
-MarginFlow is an internal retail reporting dashboard for reviewing revenue quality, profit margin, discount pressure, and customer mix.
-
-The project is intentionally small and focused. The goal was to build a clear reporting dashboard with useful summaries and a simple interface, without adding unnecessary complexity.
-
----
-
-## Highlights
-
-- Tracks revenue, profit, margin, and discount pressure in one compact dashboard
-- Uses rule-based takeaways to surface what stands out in the filtered data
-- Built as a practical internal analytics tool with Streamlit, Pandas, and Plotly
-
----
+I mainly wanted this project to feel more like a practical business tool than a typical dashboard demo.
 
 ## What this dashboard helps answer
 
 - Is revenue growing faster than profit?
-- Are discounts helping sales volume but reducing margin quality?
-- Which products generate strong revenue but weak profit?
+- Are discounts helping sales volume but weakening margin quality?
+- Which products bring in revenue but underperform on profit?
 - Are returning customers contributing more value than new customers?
 - Which categories, regions, or channels need attention?
-
----
 
 ## Features
 
 ### Overview KPIs
-- Total Revenue  
-- Total Profit  
-- Average Order Value  
-- Profit Margin %  
-- Average Discount %  
+- Total Revenue
+- Total Profit
+- Average Order Value
+- Profit Margin %
+- Average Discount %
 
 ### Filters
-- Date range  
-- Region  
-- Category  
-- Sales channel  
+- Date range
+- Region
+- Category
+- Sales channel
 
 ### Visuals
-- Revenue over time  
-- Profit over time  
-- Top products by revenue  
-- Top products by profit  
-- Revenue by customer type  
+- Revenue over time
+- Profit over time
+- Top products by revenue
+- Top products by profit
+- Revenue by customer type
 
-### Business Insights
+### Business insights
 - Quick Takeaways (rule-based insights)
-- Low margin products  
-- High discount impact products  
-- Category performance  
-- Region performance  
+- Low margin products
+- High discount impact products
+- Category performance
+- Region performance
 
----
+## Why I built it
 
-## Dashboard Views
+I wanted one project in the portfolio that sits between data work and a simple business-facing UI. A lot of dashboards look polished but do not really say much, so I tried to make this one more readable and a bit closer to something an internal team might actually use.
 
-![MarginFlow business analysis view](assets/analysis-view.png)
+I ended up reworking the charts a couple of times to keep them readable instead of just adding more of them.
 
----
+The synthetic dataset ended up being useful here because it let me shape the metrics around realistic sales questions without making local setup annoying.
 
-## Tech Stack
+## Tech stack
 
-- Python  
-- Streamlit  
-- Pandas  
-- Plotly  
+- Python
+- Streamlit
+- Pandas
+- Plotly
 
----
+## Project structure
 
-## Project Structure
-
-```
+```text
 marginflow/
 ├── app.py
 ├── requirements.txt
@@ -92,9 +76,7 @@ marginflow/
     └── analysis-view.png
 ```
 
----
-
-## How to Run
+## Run locally
 
 ```bash
 git clone https://github.com/SlavchoVlakeskiGit/marginflow.git
@@ -103,58 +85,29 @@ pip install -r requirements.txt
 py -m streamlit run app.py
 ```
 
----
-
 ## Dataset
 
-The project uses a synthetic retail dataset with fields such as:
+The project uses a synthetic retail dataset included in the repo at `data/retail_orders.csv`.
 
-- order_date  
-- order_id  
-- product  
-- category  
-- region  
-- sales_channel  
-- units_sold  
-- unit_price  
-- discount_pct  
-- revenue  
-- cost  
-- profit  
-- customer_type  
+Fields include:
+- order date
+- product
+- category
+- region
+- sales channel
+- units sold
+- revenue
+- cost
+- profit
+- customer type
 
-The dataset is designed to be simple but realistic enough for meaningful analysis.
+## Notes
 
----
+Quick Takeaways are rule-based, not machine learning. I kept that part simple on purpose because I wanted the dashboard to explain the data clearly rather than pretend to be smarter than it is.
 
-## Project notes
+## Possible next improvements
 
-- Uses a synthetic retail dataset included in the repository for easy local setup
-- Quick Takeaways are rule-based reporting insights, not machine learning
-- The dashboard focuses on a compact internal reporting workflow rather than full BI platform features
-
----
-
-## Future improvements
-
-- CSV upload support  
-- Export filtered results  
-- Period-over-period comparison  
-- Improved table styling  
-
----
-
-## Example takeaways
-
-Depending on the selected filters, the dashboard can surface observations such as:
-
-- Revenue is increasing faster than profit, suggesting margin compression
-- High-discount products are generating volume but underperforming on profit
-- Returning customers have a higher average order value than new customers
-- One region is contributing strong revenue with below-average margin
-
----
-
-## Author
-
-Built as a portfolio project to demonstrate practical analytics dashboard development with Python.
+- CSV upload support
+- export filtered results
+- period-over-period comparison
+- improved table styling
