@@ -1,8 +1,6 @@
 # MarginFlow
 
-MarginFlow is a small internal-style dashboard for looking at retail performance with a focus on revenue quality, margin pressure, discount impact, and customer mix.
-
-I mainly wanted this project to feel more like a practical business tool than a typical dashboard demo.
+MarginFlow is a  internal-style dashboard for looking at retail performance with a focus on revenue quality, margin pressure, discount impact, and customer mix.
 
 ## What this dashboard helps answer
 
@@ -40,14 +38,6 @@ I mainly wanted this project to feel more like a practical business tool than a 
 - High discount impact products
 - Category performance
 - Region performance
-
-## Why I built it
-
-I wanted one project in the portfolio that sits between data work and a simple business-facing UI. A lot of dashboards look polished but do not really say much, so I tried to make this one more readable and a bit closer to something an internal team might actually use.
-
-I ended up reworking the charts a couple of times to keep them readable instead of just adding more of them.
-
-The synthetic dataset ended up being useful here because it let me shape the metrics around realistic sales questions without making local setup annoying.
 
 ## Tech stack
 
@@ -100,10 +90,6 @@ Fields include:
 - cost
 - profit
 - customer type
-
-## Notes
-
-Quick Takeaways are rule-based, not machine learning. I kept that part simple on purpose because I wanted the dashboard to explain the data clearly rather than pretend to be smarter than it is.
 
 ## Possible next improvements
 
